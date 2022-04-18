@@ -4,7 +4,7 @@ const Studio = ({ studio }) => {
   const { name, img } = studio;
   return (
     <div
-      classNameName="card col-sm-12 col-md-3 col-lg-4 rounded-3 border-4 border-dark"
+      className="card col-sm-12 col-md-3 col-lg-4 rounded-4 border-4 border-primary"
       style={{ width: "23rem" }}
     >
       <img src={img} className="card-img-top" alt="..." />
