@@ -22,7 +22,7 @@ const studios = [
 ];
 const Studios = () => {
   return (
-    <div className="container">
+    <div id="studios" className="container">
       <h1 className="text-black text-center p-4">Our studios</h1>
       <div className="row">
         {studios.map((studio) => (

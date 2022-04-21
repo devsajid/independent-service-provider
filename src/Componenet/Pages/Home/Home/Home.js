@@ -20,70 +20,76 @@ const Home = () => {
     <div>
       <div
         id="carouselExampleControls"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={studio1} class="d-block w-100" alt="..." />
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={studio1} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio2} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio2} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio3} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio3} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio4} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio4} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio5} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio5} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio6} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio6} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio7} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio7} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio8} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio8} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio9} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio9} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio10} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio10} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio11} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio11} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio12} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio12} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio13} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio13} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={studio14} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={studio14} className="d-block w-100" alt="..." />
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
       <Services></Services>

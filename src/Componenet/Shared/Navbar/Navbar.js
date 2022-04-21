@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-dark sticky-top bg-dark navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
+        <a className="navbar-brand" href="#">
+          <h5>Best photo provider</h5>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,12 +32,17 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link to="/Blogs" className="nav-link fs-5">
-                Reviews
+                Blogs
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/About" className="nav-link fs-5">
-                About
+              <Link to="home#services" className="nav-link fs-5">
+                Service
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="home#studios" className="nav-link fs-5">
+                Studio
               </Link>
             </li>
             <li className="nav-item">
@@ -43,14 +52,8 @@ const Navbar = () => {
             </li>
           </ul>
           <form className="d-flex">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
             <button className="btn btn-outline-success" type="submit">
-              Search
+              Login
             </button>
           </form>
         </div>
