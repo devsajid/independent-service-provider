@@ -1,1 +1,0 @@
-# independent-service-provider-devsajid
